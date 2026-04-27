@@ -1,0 +1,96 @@
+// Simple Test Map for FTEQW Engine
+// File: test_assets/maps/test_simple.map
+// 
+// This is a basic Quake map file that creates a simple room with lighting
+// Load it in the engine with: map test_simple
+
+{
+"classname" "worldspawn"
+}
+{
+"classname" "light"
+"origin" "0 0 100"
+"light" "300"
+}
+{
+"classname" "info_player_start"
+"origin" "-200 -200 32"
+"angle" "90"
+}
+{
+"classname" "monster_knight"
+"origin" "200 200 16"
+"angle" "180"
+}
+
+// Brush 0: Floor
+{
+"texture" "FLOOR1_1"
+"planes" (
+(0 0 1, 0)
+(-1 0 0, -256)
+(0 -1 0, -256)
+)
+"mins" "-256 -256 0"
+"maxs" "256 256 0"
+}
+
+// Brush 1: Ceiling
+{
+"texture" "CEIL1_1"
+"planes" (
+(0 0 -1, -64)
+(-1 0 0, -256)
+(0 -1 0, -256)
+)
+"mins" "-256 -256 64"
+"maxs" "256 256 64"
+}
+
+// Brush 2: North Wall
+{
+"texture" "WALL1_1"
+"planes" (
+(0 -1 0, -256)
+(-1 0 0, -256)
+(0 0 -1, -64)
+)
+"mins" "-256 -256 0"
+"maxs" "256 256 64"
+}
+
+// Brush 3: South Wall
+{
+"texture" "WALL1_1"
+"planes" (
+(0 1 0, -256)
+(-1 0 0, -256)
+(0 0 -1, -64)
+)
+"mins" "-256 -256 0"
+"maxs" "256 256 64"
+}
+
+// Brush 4: East Wall
+{
+"texture" "WALL1_1"
+"planes" (
+(-1 0 0, -256)
+(0 -1 0, -256)
+(0 0 -1, -64)
+)
+"mins" "-256 -256 0"
+"maxs" "256 256 64"
+}
+
+// Brush 5: West Wall
+{
+"texture" "WALL1_1"
+"planes" (
+(1 0 0, -256)
+(0 -1 0, -256)
+(0 0 -1, -64)
+)
+"mins" "-256 -256 0"
+"maxs" "256 256 64"
+}
