@@ -66,6 +66,7 @@ Please see the `documentation` folder inside the repo for building, using the en
 - **Dependencies:** See `documentation/Dependencies.md` for required dependencies.
 - **Quick Start:** See `documentation/QuickStart.md` for getting started with the engine.
 - **Asset Pipeline:** See `ASSET_PIPELINE.md` for complete guide on importing models, textures, sounds, and maps.
+- **Sample Data & Testing:** See `SAMPLE_DATA_GUIDE.md` for downloading game content and using test assets.
 - **Production Readiness:** See `PRODUCTION_READINESS.md` for status and roadmap.
 - **Release Guide:** See `RELEASE.md` for deployment and packaging instructions.
 - **Security Policy:** See `SECURITY.md` for reporting vulnerabilities.
@@ -75,6 +76,8 @@ The `specs` folder is for more advanced users seeking QuakeC and idTech file for
 ### Quick Start Scripts
 
 - **Create a Test Mod:** `./setup_mod_template.sh mymod` - Creates complete mod structure with example code
+- **Download Sample Data:** `./download_sample_data.sh quake` - Downloads Quake shareware for testing
+- **Check Download Status:** `./download_sample_data.sh status` - Shows what content is installed
 
 # Contact
 
