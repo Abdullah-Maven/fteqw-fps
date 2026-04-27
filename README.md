@@ -59,6 +59,13 @@ Please make sure you have not renamed your executable, `fteqw.exe`, to be `winqu
 
 Please see the `documentation` folder inside the repo for building, using the engine, tools, and more.
 
+### Building Guides
+
+- **macOS (Apple Silicon M1/M2/M3):** See `MACOS_M3_BUILD.md` for detailed instructions on building FTEQW on MacBook Air/Pro with Apple Silicon chips.
+- **General Building:** See `documentation/Building.md` for building on other platforms.
+- **Dependencies:** See `documentation/Dependencies.md` for required dependencies.
+- **Quick Start:** See `documentation/QuickStart.md` for getting started with the engine.
+
 The `specs` folder is for more advanced users seeking QuakeC and idTech file format related information or examples.
 
 # Contact
